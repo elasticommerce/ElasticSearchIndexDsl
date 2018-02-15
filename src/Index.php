@@ -65,6 +65,7 @@ class Index
         return $this->mappings;
     }
 
+    
     /**
      * @param IndexMappings $mappings
      */
@@ -72,6 +73,6 @@ class Index
     {
         $this->mappings = $mappings;
     }
-    
+
 }
 
