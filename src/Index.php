@@ -82,4 +82,8 @@ class Index
     public function hasSettings(){
         return null !== $this->settings;
     }
+
+    public function hasName(){
+        return true !== empty($this->name);
+    }
 }
