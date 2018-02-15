@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="LP">
+    <description>Coding standard based on PSR2 with some additions.</description>
+
+    <!-- Include the whole Zend standard -->
+    <rule ref="PSR2"/>
+</ruleset>

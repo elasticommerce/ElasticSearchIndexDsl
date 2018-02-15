@@ -73,3 +73,4 @@ class Index
         $this->mappings = $mappings;
     }
 }
+
