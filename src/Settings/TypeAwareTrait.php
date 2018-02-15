@@ -27,4 +27,3 @@ trait TypeAwareTrait
         $this->type = $type;
     }
 }
-
