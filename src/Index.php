@@ -74,4 +74,12 @@ class Index
         $this->mappings = $mappings;
     }
 
+    public function hasMappings()
+    {
+        return null !== $this->mappings;
+    }
+
+    public function hasSettings(){
+        return null !== $this->settings;
+    }
 }
