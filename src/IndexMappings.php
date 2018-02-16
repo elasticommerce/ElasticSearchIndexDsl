@@ -10,5 +10,9 @@ namespace ElastiCommerce\ElasticSearchIndexDsl;
  */
 class IndexMappings
 {
+    private $name = null;
 
+    public function hasName(){
+        return true !== empty($this->name);
+    }
 }
