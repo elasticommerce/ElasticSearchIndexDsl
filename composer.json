@@ -1,0 +1,28 @@
+{
+  "name": "elasticommerce/elasticsearch-index-dsl",
+  "description": "ElastiCommerce Elasticsearch Index DSL library",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+  ],
+  "require": {
+    "php": "~7.0.0",
+    "elasticsearch/elasticsearch": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7",
+    "lizards-and-pumpkins/coding-standards": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ElastiCommerce\\ElasticSearchIndexDsl\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ElastiCommerce\\ElasticSearchIndexDsl\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
